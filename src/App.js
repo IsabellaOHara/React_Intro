@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-
 
 import Element from "./components/helloWorld.jsx"
 import NameAddress from "./components/NameAddress/nameaddress.jsx"
@@ -15,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <header className="App-header">
+      <body className="App-body">
       <Element></Element>
       <NameAddress></NameAddress>
       <Message name={"Bella O'Hara"} isGreeting={true}></Message>
       <PropComp></PropComp>
       <ComponentWithProps></ComponentWithProps>
-      </header>
+      </body>
       <Footer></Footer>
     </div>
   );
