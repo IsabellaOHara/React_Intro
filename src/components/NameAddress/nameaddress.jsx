@@ -1,3 +1,5 @@
+import './nameaddress.css'
+
 const NameAddress = () => {
 
     const nameGenerator = () => {
@@ -16,8 +18,8 @@ const NameAddress = () => {
 
     return (
         <div>
-            <h1>{nameGenerator()}</h1>
-            <p>{addressGen()}</p>
+            <h1 className="NameAddress">{nameGenerator()}</h1>
+            <p className="NameAddress">{addressGen()}</p>
         </div>);
 
 }
